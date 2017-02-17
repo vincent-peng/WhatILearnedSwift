@@ -1,0 +1,5 @@
+target 'Marslink' do
+  use_frameworks!
+
+  pod 'IGListKit', '~> 2.1.0'
+end
