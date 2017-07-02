@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF5AB64A1F07B9BC006DBD79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5AB6491F07B9BC006DBD79 /* AppDelegate.swift */; };
+		BF5AB64C1F07B9BC006DBD79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5AB64B1F07B9BC006DBD79 /* ViewController.swift */; };
+		BF5AB64F1F07B9BC006DBD79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5AB64D1F07B9BC006DBD79 /* Main.storyboard */; };
+		BF5AB6511F07B9BC006DBD79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF5AB6501F07B9BC006DBD79 /* Assets.xcassets */; };
+		BF5AB6541F07B9BC006DBD79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5AB6521F07B9BC006DBD79 /* LaunchScreen.storyboard */; };
+		BF5AB65E1F07CD7F006DBD79 /* Cars.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BF5AB65D1F07C1B1006DBD79 /* Cars.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF5AB6461F07B9BC006DBD79 /* TeslaTradeIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeslaTradeIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF5AB6491F07B9BC006DBD79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF5AB64B1F07B9BC006DBD79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF5AB64E1F07B9BC006DBD79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF5AB6501F07B9BC006DBD79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF5AB6531F07B9BC006DBD79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF5AB6551F07B9BC006DBD79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF5AB65D1F07C1B1006DBD79 /* Cars.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Cars.mlmodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF5AB6431F07B9BC006DBD79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF5AB63D1F07B9BC006DBD79 = {
+			isa = PBXGroup;
+			children = (
+				BF5AB6481F07B9BC006DBD79 /* TeslaTradeIn */,
+				BF5AB6471F07B9BC006DBD79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF5AB6471F07B9BC006DBD79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF5AB6461F07B9BC006DBD79 /* TeslaTradeIn.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF5AB6481F07B9BC006DBD79 /* TeslaTradeIn */ = {
+			isa = PBXGroup;
+			children = (
+				BF5AB65D1F07C1B1006DBD79 /* Cars.mlmodel */,
+				BF5AB6491F07B9BC006DBD79 /* AppDelegate.swift */,
+				BF5AB64B1F07B9BC006DBD79 /* ViewController.swift */,
+				BF5AB64D1F07B9BC006DBD79 /* Main.storyboard */,
+				BF5AB6501F07B9BC006DBD79 /* Assets.xcassets */,
+				BF5AB6521F07B9BC006DBD79 /* LaunchScreen.storyboard */,
+				BF5AB6551F07B9BC006DBD79 /* Info.plist */,
+			);
+			path = TeslaTradeIn;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF5AB6451F07B9BC006DBD79 /* TeslaTradeIn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF5AB6581F07B9BC006DBD79 /* Build configuration list for PBXNativeTarget "TeslaTradeIn" */;
+			buildPhases = (
+				BF5AB6421F07B9BC006DBD79 /* Sources */,
+				BF5AB6431F07B9BC006DBD79 /* Frameworks */,
+				BF5AB6441F07B9BC006DBD79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TeslaTradeIn;
+			productName = TeslaTradeIn;
+			productReference = BF5AB6461F07B9BC006DBD79 /* TeslaTradeIn.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF5AB63E1F07B9BC006DBD79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Vincent Peng";
+				TargetAttributes = {
+					BF5AB6451F07B9BC006DBD79 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+				};
+			};
+			buildConfigurationList = BF5AB6411F07B9BC006DBD79 /* Build configuration list for PBXProject "TeslaTradeIn" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF5AB63D1F07B9BC006DBD79;
+			productRefGroup = BF5AB6471F07B9BC006DBD79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF5AB6451F07B9BC006DBD79 /* TeslaTradeIn */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF5AB6441F07B9BC006DBD79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5AB6541F07B9BC006DBD79 /* LaunchScreen.storyboard in Resources */,
+				BF5AB6511F07B9BC006DBD79 /* Assets.xcassets in Resources */,
+				BF5AB64F1F07B9BC006DBD79 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF5AB6421F07B9BC006DBD79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5AB64C1F07B9BC006DBD79 /* ViewController.swift in Sources */,
+				BF5AB64A1F07B9BC006DBD79 /* AppDelegate.swift in Sources */,
+				BF5AB65E1F07CD7F006DBD79 /* Cars.mlmodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF5AB64D1F07B9BC006DBD79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF5AB64E1F07B9BC006DBD79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF5AB6521F07B9BC006DBD79 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF5AB6531F07B9BC006DBD79 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF5AB6561F07B9BC006DBD79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF5AB6571F07B9BC006DBD79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF5AB6591F07B9BC006DBD79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TeslaTradeIn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.vincentpeng.TeslaTradeIn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF5AB65A1F07B9BC006DBD79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TeslaTradeIn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.vincentpeng.TeslaTradeIn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF5AB6411F07B9BC006DBD79 /* Build configuration list for PBXProject "TeslaTradeIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF5AB6561F07B9BC006DBD79 /* Debug */,
+				BF5AB6571F07B9BC006DBD79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF5AB6581F07B9BC006DBD79 /* Build configuration list for PBXNativeTarget "TeslaTradeIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF5AB6591F07B9BC006DBD79 /* Debug */,
+				BF5AB65A1F07B9BC006DBD79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF5AB63E1F07B9BC006DBD79 /* Project object */;
+}
